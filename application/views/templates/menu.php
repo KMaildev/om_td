@@ -20,7 +20,7 @@ $lang_session = $this->session->userdata('lang');
 					<ul class="nav list-unstyled ml-3">
 						<li class="nav-item mr-3">
 							<a class="navbar-link" href="tel:09 779 741 184">
-								<strong>Phone:</strong> 09 779 741 184
+								<strong>Phone:</strong> 09 779 741 184, 09 777 860 488
 							</a>
 						</li>
 						<li class="nav-item mr-3">
@@ -67,7 +67,7 @@ $lang_session = $this->session->userdata('lang');
 		<div class="container">
 			<!-- Logo -->
 			<a class="navbar-brand" href="<?php echo site_url('welcome'); ?>">
-				<img src="<?php echo base_url(); ?>public/assets/images/logo-header.png" alt="travelgo">
+				<img src="<?php echo base_url(); ?>public/data/weblogo.png" alt="OM & TD Co.,Ltd" style="width: 100%;">
 			</a>
 
 			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"> </span> </button>
@@ -87,16 +87,26 @@ $lang_session = $this->session->userdata('lang');
 						</a>
 					</li>
 
-					<li class="nav-item active">
-						<a href="<?php echo site_url('about'); ?>" class="nav-link">
-							<?php
-							if ($lang_session == 'jp') {
-								echo "会社概要";
-							} else {
-								echo "About Us";
-							}
-							?>
+
+
+					<li class="nav-item dropdown active">
+						<a class="nav-link dropdown-toggle" href="#" id="demosMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Our Company
 						</a>
+						<ul class="dropdown-menu" aria-labelledby="homeMenu">
+
+							<li>
+								<a href="<?php echo site_url('about'); ?>" class="dropdown-item">
+									About Us
+								</a>
+							</li>
+
+							<li>
+								<a href="<?php echo site_url('about/team'); ?>" class="dropdown-item">
+									Meet Our Team
+								</a>
+							</li>
+						</ul>
 					</li>
 
 

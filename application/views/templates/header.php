@@ -8,12 +8,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="<?php echo base_url(); ?>public/assets/css/style.css" type="text/css" rel="stylesheet" />
-    <link href="<?php echo base_url(); ?>public/assets/images/favicon.png" rel="shortcut icon" type="image/png">
-    <link href="<?php echo base_url(); ?>public/assets/images/apple-touch-icon.png" rel="apple-touch-icon">
-    <link href="<?php echo base_url(); ?>public/assets/images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
-    <link href="<?php echo base_url(); ?>public/assets/images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
-    <link href="<?php echo base_url(); ?>public/assets/images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
-    <title>OM & TD Co.,Ltd - Overseas Employment Agency</title>
+    <link href="<?php echo base_url(); ?>public/data/logo.png" rel="shortcut icon" type="image/png">
+    <title>OM & TD CO.,LTD - Overseas Employment Agency</title>
+
+    <meta content="" name="OM & TD CO.,LTD">
+    <meta name="keywords" content="OM & TD CO.,LTD" />
+    <meta property="og:title" content="OM & TD CO.,LTD" />
+    <meta property="og:image" content="<?php echo base_url(); ?>/public/data/site.png" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="OM & TD CO.,LTD" />
 </head>
 
 <body>

@@ -198,7 +198,7 @@ $lang_session = $this->session->userdata('lang');
 				</div>
 				<div style="clear: both"></div>
 				<div class="col-xl-12">
-					<div class="copy-info text-center"> © <?php echo date('Y'); ?> Classifly. All Rights Reserved. </div>
+					<div class="copy-info text-center"> © <?php echo date('Y'); ?> OM & TD CO.,LTD. All Rights Reserved. </div>
 				</div>
 			</div>
 		</div>
